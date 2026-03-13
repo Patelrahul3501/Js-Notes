@@ -299,6 +299,79 @@ const bigNumber = 1234567890123456789012345678901234567890n;
 console.log(typeof bigNumber); // output : bigint
 <br><br>
 
+<b>Ex.11</b>
+
+console.log(typeof NaN); // output : number
+<br><br>
+
+<b>Ex.12</b>
+
+let num = null;
+console.log(num); // null
+console.log(typeof num); // object
+<br><br>
+
+<b>Ex.13</b>
+
+let name = "Patel"
+let name2 = " Rahul"
+
+console.log(name-name2) // output : NaN
+<br><br>
+
+<h3>Datatype Conversion Confusions :</h3>
+<hr>
+
+<b>-> Datatype Conversion is the process of converting a value from one data type to another.</b>
+<br>
+
+<b>Ex.</b>
+
+console.log("2"+1+1) // output : 211
+console.log(1+1+"2") // output : 22
+
+console.log("2" + 1) // output : 21
+console.log("2" - 1) // output : 1
+console.log("2" \* 1) // output : 2
+console.log("2" / 1) // output : 2
+console.log("2" \*\* 1) // output : 2
+console.log("2" % 1) // output : 0
+console.log("2" > 1) // output : true
+console.log("2" < 1) // output : false
+console.log("2" == 1) // output : false
+console.log("2" === 1) // output : false
+
+console.log(null > 0) // output : false
+console.log(null == 0) // output : false
+console.log(null >= 0) // output : true
+console.log(null < 0) // output : false
+console.log(null <= 0) // output : true
+console.log(null === 0) // output :false
+console.log(null !== 0) // output : true
+
+console.log(undefined > 0) // output : false
+console.log(undefined == 0) // output : false
+console.log(undefined >= 0) // output : false
+console.log(undefined < 0) // output : false
+console.log(undefined <= 0) // output : false
+console.log(undefined === 0) // output :false
+console.log(undefined !== 0) // output : true
+
+console.log(null == undefined) // output : true
+console.log(null === undefined) // output : false
+
+console.log(NaN == NaN) // output : false
+console.log(NaN === NaN) // output : false
+
+console.log(NaN > 0) // output : false
+console.log(NaN < 0) // output : false
+console.log(NaN >= 0) // output : false
+console.log(NaN <= 0) // output : false
+console.log(NaN == 0) // output : false
+console.log(NaN === 0) // output : false
+console.log(NaN !== 0) // output : true
+
+<br>
 <h3>Null vs Undefined : </h3>
 <hr>
 
